@@ -1,7 +1,7 @@
 # ins_LaTeX
 instruction LaTeX
 请直接右侧打包下载  
-11/11/2015 更新: 
+11/11/2015 更新:   
   {  
   ·更新了文档中几处笔误，添加了参考网站。  
   ·说明文档（英文，含源码） TiKZ电路图 circuitikz_2.zip   
