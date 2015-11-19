@@ -7,7 +7,7 @@ instruction LaTeX
   ·添加了 说明文档（法文） TikZ-Manuel.pdf  
   ·添加了 说明文档（英文） pgfmanual.pdf  
   ·添加了 软件 （画简单Tikz图）TikzEdtBeta0_2_3.zip
-  }
+  }  
 11/11/2015 更新:   
   {  
   ·更新了 文档中几处笔误，添加了参考网站。  
