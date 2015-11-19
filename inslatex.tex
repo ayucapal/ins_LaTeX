@@ -80,7 +80,7 @@
 %\renewcommand{\abstractname}{\sihao\hei 摘\ 要}
 \renewcommand{\indexname}{索引}
 \renewcommand{\tablename}{表}
-\renewcommand{\figurename}{Figure}
+\renewcommand{\figurename}{图}
 \renewcommand{\chaptername}{Chapitre}
 \newtheorem{theorem}{定理}
 \newtheorem{definition}{\hei 定义}
@@ -289,7 +289,7 @@ Q：那需要背很多指令吗？ A：{\color{cyan}不用}！在后面会讲到
 {\bfseries {下面来举一个实际例子。}}
 \end{lstlisting}
 \par
-$\backslash$bfseries 的意思是加粗。所以你明白了嘛？
+$\backslash$bfseries 的意思是加粗。所以明白了嘛？
 \par
 又一个栗子：
 \par
@@ -297,7 +297,12 @@ $\backslash$bfseries 的意思是加粗。所以你明白了嘛？
 \par
 这句话字体倾斜，颜色变了，是这样实现的。
 \par
-
+插一句：关于字体颜色，\LaTeX 系统提供了下面这些基本颜色：white, black, red, green, blue, cyan, magenta, yellow。 \begin{figure}[htp] 
+\centering 
+\includegraphics[scale=0.85]{bc.png}
+\caption{自带颜色}%`图片的标题`
+\label{pic:bc}
+\end{figure}可以使用例如 $\backslash$color\{red\}\{text\}的格式来给字体变色。并且我发现在某些场合，只能使用系统自带的颜色。如果在一些简单场合，需要使用更多的颜色，可以按代码中的格式来实现。
 \begin{lstlisting}[language={[ANSI]C}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
 {\textit {\textcolor[RGB]{20,200,145} {Polytech Paris-Sud}}}
 \end{lstlisting}
@@ -310,7 +315,7 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \section{图片摆放}
 \LaTeX 里图片的设置稍微复杂，但是功能也更强大。
 \par
-本文上之前的图片都是用这一段代码插入的。例如\ref{pic:tm}（点击标号可以跳转）
+本文上之前的图片都是用这一段代码插入的。例如图\ref{pic:tm}（点击标号可以跳转）
 \par
 \begin{lstlisting}[language={[ANSI]C}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
 \begin{figure}[htp] //h=here，t=top，p=page 这些是让系统自动选择图片最合适的位置
@@ -335,7 +340,7 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{figure}
 \end{lstlisting}
 \par
-效果就是这样：
+效果就是图\ref{pic:dora} 这样：
 \par
 \begin{figure}[h]
 \centering
@@ -348,7 +353,7 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 至于想像Word一样，采取文字环绕图片等等版式，我只想说，这就是Word生成的PDF杂乱无章的罪魁祸首，还是不要用了，并不会漂亮多少的。
 \vspace{2em}
 \section{绘制表格}
-我的建议是，如果表格比较复杂，不要用\LaTeX 绘制，用Word画好截图放进来。
+我的建议是，如果表格特别复杂，不要用\LaTeX 绘制，用Word画好截图放进来。
 \par
 简单的表格画法：
 \par
@@ -380,9 +385,30 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{tabular}
 \end{lstlisting}
 \par
-至于像下面这种含有合并单元格，精确画格线的表格，请结合代码并谷歌 “makecell latex”。
+至于像下面这种含有合并单元格，精确画格线的表格，可以借助一些工具画，比如这个网站：\href{http://www.tablesgenerator.com/}{Tables Generator}
 
 \par
+这样一来我们可以像在Word差不多的环境中进行绘制一个表格了！
+\par
+见图\ref{pic:tb} 和 \ref{pic:tb2}。
+\par
+\begin{figure}[htp] 
+\centering 
+\includegraphics[scale=0.65]{tb.png}
+\caption{内容，框线，对齐，单元格合并，轻松搞定~}%`图片的标题`
+\label{pic:tb}
+\end{figure}
+
+\par
+\begin{figure}[htp] 
+\centering 
+\includegraphics[scale=0.65]{tb2.png}
+\caption{generate生成的代码直接复制，注意按照要求添加package}%`图片的标题`
+\label{pic:tb2}
+\end{figure}
+
+\par
+
 \begin{center}
 \begin{tabular}{rrrr}
 \Xhline {1.0pt}
@@ -424,7 +450,7 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{lstlisting}
 \par
 
-挺麻烦的，不如画好了截图放进来（真心话）.
+挺麻烦的，手动绘制还是不要了= =
 \vspace{2em}
 \section{插入代码}
 你可能已经发现了,这代码贴得挺别致的：
@@ -452,6 +478,9 @@ int main()
 \end{lstlisting}
 \par
 所以需要贴代码的时候，把代码换到【代码段】位置就可以了。
+\par
+
+\vspace{2em}
 
 \chapter{进阶技能}
 \section{插入公式}
@@ -592,7 +621,16 @@ $
 \par
 
 \href{https://bitbucket.org/rivanvx/beamer/wiki/Home}{Beamer：用\LaTeX 制作PPT}
+\par
+\href{http://latexcolor.com/}{\LaTeX 颜色预定义集合} （将颜色预定义加到头文件区域的\textcolor[RGB]{145,25,12}{最后}）
+\par
+\href{http://www.tablesgenerator.com/}{Tables Generator 在线绘制表格}%左边是网站
 \chapter{更新日志}
+19/11/2015 更新：
+\par
+添加了一个绘制表格网站和查询颜色预定义的网站~ 感觉妈妈又更不用担心我的报告了！
+\par
+
 11/11/2015 更新：
 \par
 特别感谢张子谋同志，是他的\LaTeX 贴心教程 给我启蒙。我的绝大部分技能都是从这份教程里面获得的。
@@ -605,7 +643,7 @@ $
 04/11/2015 更新：
 \par
 
-如果你发现copy了我的头文件区域之后不能compiler，十有八九是因为我用过的字体在你的电脑里没有安装。
+如果你发现copy了我的头文件区域之后不能compiler，十有八九是因为我定义的字体在你系统的字体库里没有安装，注释掉就可以了！
 \par
 初使用\LaTeX 的一段时间必然是挺痛苦的 但是越写越带劲~加油小伙伴们！
 \par

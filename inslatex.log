@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.7.1)  11 NOV 2015 15:07
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.7.1)  19 NOV 2015 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2052,17 +2052,26 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 )
 [4]
 Chapitre 3.
+File: bc.png Graphic file (type QTm)
+<use  "bc.png" >
+Overfull \hbox (29.91109pt too wide) in paragraph at lines 300--306
+\EU1/Consolas(0)/m/n/14 red, green, blue, cyan, magenta, yellow\EU1/MicrosoftYa
+Hei(0)/m/n/14 。| 可 以 使 用 例 如 $\OMS/txsy/m/n/14 n$\EU1/Consolas(0)/m/n/14 color{
+red}{text}
+ []
+
 [5
 
-]
+] [6]
 File: tr.png Graphic file (type QTm)
  <use  "tr.png" >
 File: xf.png Graphic file (type QTm)
- <use  "xf.png" >
+ <use  "xf.png" > [7]
+File: tb.png Graphic file (type QTm)
+ <use  "tb.png" >
+File: tb2.png Graphic file (type QTm)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
+<use  "tb2.png" >
 File: polytech.png Graphic file (type QTm)
  <use  "polytech.png" >
 \g_fontspec_family_SimSun_int=\count291
@@ -2095,7 +2104,7 @@ File: polytech.png Graphic file (type QTm)
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/sl' in size <14> not availabl
 e
 (Font)              Font shape `EU1/Consolas(0)/m/it' tried instead on input li
-ne 394.
+ne 420.
 
 *************************************************
 * xeCJK warning: "CJKfamily-Unknown"
@@ -2104,41 +2113,41 @@ ne 394.
 * 
 * Try to use `\setCJKsansfont[...]{...}' to define it.
 *************************************************
-LaTeX Font Info:    Try loading font information for EU1+txss on input line 394
+LaTeX Font Info:    Try loading font information for EU1+txss on input line 420
 .
-LaTeX Font Info:    No file EU1txss.fd. on input line 394.
+LaTeX Font Info:    No file EU1txss.fd. on input line 420.
 
 LaTeX Font Warning: Font shape `EU1/txss/m/sl' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 394.
+(Font)              using `EU1/lmr/m/n' instead on input line 420.
 
-[7]
+[8] [9]
 LaTeX Font Info:    Font shape `EU1/SegoeUISemilight(0)/m/sl' in size <10> not 
 available
 (Font)              Font shape `EU1/SegoeUISemilight(0)/m/it' tried instead on 
-input line 439.
- [8] [9]
+input line 465.
+ [10]
 Chapitre 4.
-[10
+[11
 
 ]
 Chapitre 5.
 File: is.png Graphic file (type QTm)
-<use  "is.png" > [11
+<use  "is.png" > [12
 
-] [12] [13]
+] [13] [14]
 Chapitre 6.
-[14
-
-]
-Chapitre 7.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
 [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
+Chapitre 7.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 653.
+[16
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 653.
  (./inslatex.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 615.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 615.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 653.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 653.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2147,19 +2156,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 653.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 287 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30590 strings out of 493734
- 566466 string characters out of 6143229
- 808166 words of memory out of 5000000
- 33445 multiletter control sequences out of 15000+600000
+ 30589 strings out of 493734
+ 565964 string characters out of 6143229
+ 784317 words of memory out of 5000000
+ 33441 multiletter control sequences out of 15000+600000
  40676 words of font info for 210 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,17n,56p,10409b,1442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,17n,56p,10409b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on inslatex.pdf (18 pages).
+Output written on inslatex.pdf (19 pages).

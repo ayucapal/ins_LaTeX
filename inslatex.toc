@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {3.1}基本情况}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}图片摆放}{6}{section.3.2}
 \contentsline {section}{\numberline {3.3}绘制表格}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}插入代码}{8}{section.3.4}
-\contentsline {chapter}{\numberline {4}进阶技能}{10}{chapter.4}
-\contentsline {section}{\numberline {4.1}插入公式}{10}{section.4.1}
-\contentsline {chapter}{\numberline {5}重要秘籍}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}推荐网站}{14}{chapter.6}
-\contentsline {chapter}{\numberline {7}更新日志}{15}{chapter.7}
+\contentsline {section}{\numberline {3.4}插入代码}{10}{section.3.4}
+\contentsline {chapter}{\numberline {4}进阶技能}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}插入公式}{11}{section.4.1}
+\contentsline {chapter}{\numberline {5}重要秘籍}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}推荐网站}{15}{chapter.6}
+\contentsline {chapter}{\numberline {7}更新日志}{16}{chapter.7}
