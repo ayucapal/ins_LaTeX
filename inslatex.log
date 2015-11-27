@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.7.1)  19 NOV 2015 23:31
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.7.1)  27 NOV 2015 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,17 +891,84 @@ File: xunicode-extra.def 2014/05/13 v3.2.12 extra definition for xunicode
 *************************************************
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg
 File: xeCJK.cfg 2014/05/13 v3.2.12 Configuration file for xeCJK package
-)) (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/titlesec/titlesec.sty
+)) (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+Package: xltxtra 2010/09/20 v0.5e Improvements for the "XeLaTeX" format
+
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/realscripts/realscripts.s
+ty
+Package: realscripts 2013/03/18 v0.3c Access OpenType subscripts and superscrip
+ts
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesubscript with arg. spec. 'm' on line 19.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesuperscript with arg. spec. 'm' on line 22.
+.................................................
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsubscript with arg. spec. 's' on line 25.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsuperscript with arg. spec. 's' on line 28.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsubscript with arg. spec. 'm' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsuperscript with arg. spec. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsubsuperscript with arg. spec. 'sO{l}mm' on
+. line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsupersubscript with arg. spec. 'sO{l}mm' on
+. line 143.
+.................................................
+\subsupersep=\dimen172
+) (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks20
+\xl@@everylogo=\toks21
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\xxt@tempbox=\box45
+) (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box45
+\ttl@box=\box46
 \beforetitleunit=\skip65
 \aftertitleunit=\skip66
-\ttl@plus=\dimen172
-\ttl@minus=\dimen173
-\ttl@toksa=\toks20
-\titlewidth=\dimen174
-\titlewidthlast=\dimen175
-\titlewidthfirst=\dimen176
+\ttl@plus=\dimen173
+\ttl@minus=\dimen174
+\ttl@toksa=\toks22
+\titlewidth=\dimen175
+\titlewidthlast=\dimen176
+\titlewidthfirst=\dimen177
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -910,21 +977,18 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(d:/Program Files (x86)/Texmaker/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
 \Gm@cnth=\count139
 \Gm@cntv=\count140
 \c@Gm@tempcnt=\count141
-\Gm@bindingoffset=\dimen177
-\Gm@wd@mp=\dimen178
-\Gm@odd@mp=\dimen179
-\Gm@even@mp=\dimen180
-\Gm@layoutwidth=\dimen181
-\Gm@layoutheight=\dimen182
-\Gm@layouthoffset=\dimen183
-\Gm@layoutvoffset=\dimen184
-\Gm@dimlist=\toks21
+\Gm@bindingoffset=\dimen178
+\Gm@wd@mp=\dimen179
+\Gm@odd@mp=\dimen180
+\Gm@even@mp=\dimen181
+\Gm@layoutwidth=\dimen182
+\Gm@layoutheight=\dimen183
+\Gm@layouthoffset=\dimen184
+\Gm@layoutvoffset=\dimen185
+\Gm@dimlist=\toks23
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -936,12 +1000,12 @@ Package: amstext 2000/06/29 v2.01
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
-\ex@=\dimen185
+\@emptytoks=\toks24
+\ex@=\dimen186
 ))
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen186
+\pmbraise@=\dimen187
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -956,9 +1020,9 @@ LaTeX Info: Redefining \overline on input line 306.
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box46
-\strutbox@=\box47
-\big@size=\dimen187
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen188
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count147
@@ -966,21 +1030,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip17
 \c@parentequation=\count149
 \dspbrk@lvl=\count150
-\tag@help=\toks23
+\tag@help=\toks25
 \row@=\count151
 \column@=\count152
 \maxfields@=\count153
-\andhelp@=\toks24
-\eqnshift@=\dimen188
-\alignsep@=\dimen189
-\tagshift@=\dimen190
-\tagwidth@=\dimen191
-\totwidth@=\dimen192
-\lineht@=\dimen193
-\@envbody=\toks25
+\andhelp@=\toks26
+\eqnshift@=\dimen189
+\alignsep@=\dimen190
+\tagshift@=\dimen191
+\tagwidth@=\dimen192
+\totwidth@=\dimen193
+\lineht@=\dimen194
+\@envbody=\toks27
 \multlinegap=\skip68
 \multlinetaggap=\skip69
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -996,30 +1060,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/amsmath/amscd.sty
 Package: amscd 1999/11/29 v2.0
-\athelp@=\toks27
-\minaw@=\dimen194
-\bigaw@=\dimen195
-\minCDarrowwidth=\dimen196
+\athelp@=\toks29
+\minaw@=\dimen195
+\bigaw@=\dimen196
+\minCDarrowwidth=\dimen197
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count154
-\lst@gtempboxa=\box48
-\lst@token=\toks28
+\lst@gtempboxa=\box49
+\lst@token=\toks30
 \lst@length=\count155
-\lst@currlwidth=\dimen197
+\lst@currlwidth=\dimen198
 \lst@column=\count156
 \lst@pos=\count157
-\lst@lostspace=\dimen198
-\lst@width=\dimen199
+\lst@lostspace=\dimen199
+\lst@width=\dimen200
 \lst@newlines=\count158
 \lst@lineno=\count159
-\lst@maxwidth=\dimen200
+\lst@maxwidth=\dimen201
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count160
 \lst@skipnumbers=\count161
-\lst@framebox=\box49
+\lst@framebox=\box50
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
@@ -1045,11 +1109,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip70
-\fb@frw=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\fb@frh=\dimen256
-\FrameRule=\dimen257
-\FrameSep=\dimen258
+\fb@frw=\dimen256
+\fb@frh=\dimen257
+\FrameRule=\dimen258
+\FrameSep=\dimen259
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
@@ -1064,20 +1128,20 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen259
-\captionmargin@=\dimen260
-\captionwidth=\dimen261
-\caption@tempdima=\dimen262
-\caption@indent=\dimen263
-\caption@parindent=\dimen264
-\caption@hangindent=\dimen265
+\captionmargin=\dimen260
+\captionmargin@=\dimen261
+\captionwidth=\dimen262
+\caption@tempdima=\dimen263
+\caption@indent=\dimen264
+\caption@parindent=\dimen265
+\caption@hangindent=\dimen266
 )
 \c@ContinuedFloat=\count163
 Package caption Info: listings package is loaded.
 )
 \c@KVtest=\count164
 \sf@farskip=\skip71
-\sf@captopadj=\dimen266
+\sf@captopadj=\dimen267
 \sf@capskip=\skip72
 \sf@nearskip=\skip73
 \c@subfigure=\count165
@@ -1091,13 +1155,13 @@ Package caption Info: listings package is loaded.
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/05/13 v2.10 `tabularx' package (DPC)
-\TX@col@width=\dimen267
-\TX@old@table=\dimen268
-\TX@old@col=\dimen269
-\TX@target=\dimen270
-\TX@delta=\dimen271
+\TX@col@width=\dimen268
+\TX@old@table=\dimen269
+\TX@old@col=\dimen270
+\TX@target=\dimen271
+\TX@delta=\dimen272
 \TX@cols=\count171
-\TX@ftn=\toks29
+\TX@ftn=\toks31
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -1109,62 +1173,62 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip78
 \LTpost=\skip79
 \LTchunksize=\count172
-\LTcapwidth=\dimen272
-\LT@head=\box50
-\LT@firsthead=\box51
-\LT@foot=\box52
-\LT@lastfoot=\box53
+\LTcapwidth=\dimen273
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
 \LT@cols=\count173
 \LT@rows=\count174
 \c@LT@tables=\count175
 \c@LT@chunks=\count176
-\LT@p@ftn=\toks30
+\LT@p@ftn=\toks32
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen273
+\bigstrutjot=\dimen274
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen274
-\WF@size=\dimen275
+\wrapoverhang=\dimen275
+\WF@size=\dimen276
 \c@WF@wrappedlines=\count177
-\WF@box=\box54
-\WF@everypar=\toks31
+\WF@box=\box55
+\WF@everypar=\toks33
 Package: wrapfig 2003/01/31  v 3.6
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen276
-\lightrulewidth=\dimen277
-\cmidrulewidth=\dimen278
-\belowrulesep=\dimen279
-\belowbottomsep=\dimen280
-\aboverulesep=\dimen281
-\abovetopsep=\dimen282
-\cmidrulesep=\dimen283
-\cmidrulekern=\dimen284
-\defaultaddspace=\dimen285
+\heavyrulewidth=\dimen277
+\lightrulewidth=\dimen278
+\cmidrulewidth=\dimen279
+\belowrulesep=\dimen280
+\belowbottomsep=\dimen281
+\aboverulesep=\dimen282
+\abovetopsep=\dimen283
+\cmidrulesep=\dimen284
+\cmidrulekern=\dimen285
+\defaultaddspace=\dimen286
 \@cmidla=\count178
 \@cmidlb=\count179
-\@aboverulesep=\dimen286
-\@belowrulesep=\dimen287
+\@aboverulesep=\dimen287
+\@belowrulesep=\dimen288
 \@thisruleclass=\count180
 \@lastruleclass=\count181
-\@thisrulewidth=\dimen288
+\@thisrulewidth=\dimen289
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/extarrows/extarrows.sty
 Package: extarrows 2008/05/15 v1.0b Some extensible arrows
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box55
-\UL@hyphenbox=\box56
+\UL@box=\box56
+\UL@hyphenbox=\box57
 \UL@skip=\skip80
-\UL@hook=\toks32
-\UL@height=\dimen289
+\UL@hook=\toks34
+\UL@height=\dimen290
 \UL@pe=\count182
-\UL@pixel=\dimen290
-\ULC@box=\box57
+\UL@pixel=\dimen291
+\ULC@box=\box58
 Package: ulem 2012/05/18
-\ULdepth=\dimen291
+\ULdepth=\dimen292
 )
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -1294,8 +1358,7 @@ Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
@@ -1335,7 +1398,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen292
+\@linkdim=\dimen293
 \Hy@linkcounter=\count184
 \Hy@pagecounter=\count185
 
@@ -1362,10 +1425,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen293
+\XeTeXLinkMargin=\dimen294
 \Fld@menulength=\count188
-\Field@Width=\dimen294
-\Fld@charsize=\dimen295
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1392,7 +1455,7 @@ File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box58
+\pdfm@box=\box59
 \c@Hy@AnnotLevel=\count192
 \HyField@AnnotCount=\count193
 \Fld@listcount=\count194
@@ -1440,12 +1503,12 @@ Normal \count register pool exhausted, switching to extended pool.
 . * 'bold italic' with NFSS spec.:
 . <->"Microsoft YaHei/BI/ICU:script=hani;language=DFLT;"
 .................................................
-LaTeX Font Info:    Try loading font information for EU1+txr on input line 92.
-LaTeX Font Info:    No file EU1txr.fd. on input line 92.
+LaTeX Font Info:    Try loading font information for EU1+txr on input line 86.
+LaTeX Font Info:    No file EU1txr.fd. on input line 86.
 
 
 LaTeX Font Warning: Font shape `EU1/txr/m/n' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 92.
+(Font)              using `EU1/lmr/m/n' instead on input line 86.
 
 \g_fontspec_family_Segoe UI Semilight_int=\count278
 .................................................
@@ -1732,10 +1795,10 @@ Package: xeCJKfntef 2014/05/13 v3.2.12 xeCJK patch file for ulem/CJKfntef
 Package: CJKfntef 2012/05/07 4.8.3
 \CJK@fntefSkip=\skip84
 \CJK@nest=\count287
-\CJK@fntefDimen=\dimen296
-\CJK@underdotBox=\box59
-\CJK@ULbox=\box60
-\CJK@underanyskip=\dimen297
+\CJK@fntefDimen=\dimen297
+\CJK@underdotBox=\box60
+\CJK@ULbox=\box61
+\CJK@underanyskip=\dimen298
 ) (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
@@ -1747,7 +1810,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 * 
 * Redefining document command \CJKunderdot with arg. spec. 'm' on line 395.
 *************************************************
-\g__xeCJK_under_symbol_box=\box61
+\g__xeCJK_under_symbol_box=\box62
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
@@ -1768,55 +1831,55 @@ Package: xeCJK-listings 2014/05/13 v3.2.12 xeCJK patch file for listings
 ) (./inslatex.aux)
 \openout1 = `inslatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 163.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 163
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 157.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 157
 .
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 163
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 157.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 157
 .
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 163
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 157.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 157
 .
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 163.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 157.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 157.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 163.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 157.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 157.
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1824,71 +1887,71 @@ LaTeX Font Info:    ... okay on input line 163.
 .................................................
 \symlegacymaths=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 163.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 163.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 163.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 163.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 163.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 163.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 163.
-LaTeX Font Info:    Redeclaring math accent \check on input line 163.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 163.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 163.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 163.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 163.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 157.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 157.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 157.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 157.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 157.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 157.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 157.
+LaTeX Font Info:    Redeclaring math accent \check on input line 157.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 157.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 157.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 157.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 157.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 163.
+(Font)              `operators' in the math version `normal' on input line 157.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/txr/m/n --> EU1/SegoeUISemilight(0)/m/n on input li
-ne 163.
+ne 157.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 163.
+(Font)              `operators' in the math version `bold' on input line 157.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/bx/n --> EU1/SegoeUISemilight(0)/m/n on input l
-ine 163.
+ine 157.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/SegoeUISemilight(0)/m/n --> EU1/SegoeUISemilight(0)
-/m/n on input line 163.
+/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/SegoeUISemilight(0)/m/n --> EU1/SegoeUISemilight(0)
-/m/n on input line 163.
+/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/txr/m/it --> EU1/SegoeUISemilight(0)/m/it on input 
-line 163.
+line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/txr/bx/n --> EU1/SegoeUISemilight(0)/bx/n on input 
-line 163.
+line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> EU1/txss/m/n on input line 163.
+(Font)                  OT1/txss/m/n --> EU1/txss/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> EU1/txtt/m/n on input line 163.
+(Font)                  OT1/txtt/m/n --> EU1/txtt/m/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/SegoeUISemilight(0)/m/n --> EU1/SegoeUISemilight(0)
-/bx/n on input line 163.
+/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/SegoeUISemilight(0)/m/n --> EU1/SegoeUISemilight(0)
-/bx/n on input line 163.
+/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/txr/bx/it --> EU1/SegoeUISemilight(0)/bx/it on inpu
-t line 163.
+t line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> EU1/txss/bx/n on input line 163.
+(Font)                  OT1/txss/b/n --> EU1/txss/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> EU1/txtt/bx/n on input line 163.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 163.
+(Font)                  OT1/txtt/b/n --> EU1/txtt/bx/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 157.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1906,9 +1969,9 @@ LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 163.
 * \textheight=702.78308pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-63.66261pt
+* \topmargin=-33.0119pt
 * \headheight=12.0pt
-* \headsep=50.5245pt
+* \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=38.0pt
@@ -1934,8 +1997,8 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring ON on input line 163.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring ON on input line 157.
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1946,66 +2009,66 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 163.
-LaTeX Info: Redefining \pageref on input line 163.
-LaTeX Info: Redefining \nameref on input line 163.
+LaTeX Info: Redefining \ref on input line 157.
+LaTeX Info: Redefining \pageref on input line 157.
+LaTeX Info: Redefining \nameref on input line 157.
  (./inslatex.out) (./inslatex.out)
 \@outlinefile=\write3
 \openout3 = `inslatex.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 167.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 167.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 161.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 161.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 167.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 161.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 167.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 161.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 167.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 161.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 167.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 161.
 
 
 (d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <26> on input line 177.
+LaTeX Font Info:    Calculating math sizes for size <26> on input line 171.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26> not available
-(Font)              size <24.88> substituted on input line 177.
+(Font)              size <24.88> substituted on input line 171.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18.19992> not available
-(Font)              size <17.28> substituted on input line 177.
+(Font)              size <17.28> substituted on input line 171.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 177.
+(Font)              size <12> substituted on input line 171.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 170--178
 
  []
 
 File: Figures/latex.png Graphic file (type QTm)
 <use  "Figures/latex.png" >
-Overfull \hbox (2.55663pt too wide) in paragraph at lines 164--193
+Overfull \hbox (2.55663pt too wide) in paragraph at lines 158--187
 []$[]$  $[]$ 
  []
 
@@ -2026,11 +2089,11 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Info:    Font shape `EU1/SegoeUISemilight(0)/m/sl' in size <12> not 
 available
 (Font)              Font shape `EU1/SegoeUISemilight(0)/m/it' tried instead on 
-input line 197.
+input line 191.
 
 
 LaTeX Font Warning: Font shape `EU1/MicrosoftYaHei(0)/m/sl' undefined
-(Font)              using `EU1/MicrosoftYaHei(0)/m/n' instead on input line 197
+(Font)              using `EU1/MicrosoftYaHei(0)/m/n' instead on input line 191
 .
 
 [2]
@@ -2054,7 +2117,7 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 Chapitre 3.
 File: Figures/bc.png Graphic file (type QTm)
 <use  "Figures/bc.png" >
-Overfull \hbox (29.91109pt too wide) in paragraph at lines 300--306
+Overfull \hbox (29.91109pt too wide) in paragraph at lines 295--301
 \EU1/Consolas(0)/m/n/14 red, green, blue, cyan, magenta, yellow\EU1/MicrosoftYa
 Hei(0)/m/n/14 。| 可 以 使 用 例 如 $\OMS/txsy/m/n/14 n$\EU1/Consolas(0)/m/n/14 color{
 red}{text}
@@ -2066,15 +2129,21 @@ red}{text}
 File: Figures/tr.png Graphic file (type QTm)
  <use  "Figures/tr.png" >
 File: Figures/xf.png Graphic file (type QTm)
- <use  "Figures/xf.png" > [7]
+ <use  "Figures/xf.png" >
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 356.
+See the caption package documentation for explanation.
+
+File: figures/latex.png Graphic file (type QTm)
+<use  "figures/latex.png" > [7] [8]
 File: Figures/tb.png Graphic file (type QTm)
-
-<use  "Figures/tb.png" >
+ <use  "Figures/tb.png" >
 File: Figures/tb2.png Graphic file (type QTm)
- <use  "Figures/tb2.png" >
-File: Figures/polytech.png Graphic file (type QTm)
 
-<use  "Figures/polytech.png" >
+<use  "Figures/tb2.png" >
+File: Figures/polytech.png Graphic file (type QTm)
+ <use  "Figures/polytech.png" >
 \g_fontspec_family_SimSun_int=\count291
 .................................................
 . fontspec info: "no-font-shape"
@@ -2105,7 +2174,7 @@ File: Figures/polytech.png Graphic file (type QTm)
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/sl' in size <14> not availabl
 e
 (Font)              Font shape `EU1/Consolas(0)/m/it' tried instead on input li
-ne 420.
+ne 442.
 
 *************************************************
 * xeCJK warning: "CJKfamily-Unknown"
@@ -2114,41 +2183,124 @@ ne 420.
 * 
 * Try to use `\setCJKsansfont[...]{...}' to define it.
 *************************************************
-LaTeX Font Info:    Try loading font information for EU1+txss on input line 420
+LaTeX Font Info:    Try loading font information for EU1+txss on input line 442
 .
-LaTeX Font Info:    No file EU1txss.fd. on input line 420.
+LaTeX Font Info:    No file EU1txss.fd. on input line 442.
 
 LaTeX Font Warning: Font shape `EU1/txss/m/sl' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 420.
+(Font)              using `EU1/lmr/m/n' instead on input line 442.
 
-[8] [9]
+[9]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 482.
+See the caption package documentation for explanation.
+
+File: figures/xls.png Graphic file (type QTm)
+<use  "figures/xls.png" > [10]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 493.
+See the caption package documentation for explanation.
+
+[11]
 LaTeX Font Info:    Font shape `EU1/SegoeUISemilight(0)/m/sl' in size <10> not 
 available
 (Font)              Font shape `EU1/SegoeUISemilight(0)/m/it' tried instead on 
-input line 465.
- [10]
+input line 527.
+ [12]
 Chapitre 4.
-[11
+[13
 
 ]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 584.
+See the caption package documentation for explanation.
+
+File: figures/ti.png Graphic file (type QTm)
+<use  "figures/ti.png" >
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 595.
+See the caption package documentation for explanation.
+
+File: figures/ao1.pdf Graphic file (type QTm)
+<use  "figures/ao1.pdf" >
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2014/03/04 1.5c listings language file
+)
+(d:/Program Files (x86)/Texmaker/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+)
+[14]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 623.
+See the caption package documentation for explanation.
+
+File: figures/ao2.pdf Graphic file (type QTm)
+<use  "figures/ao2.pdf" >
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 632.
+See the caption package documentation for explanation.
+
+File: figures/tzt.pdf Graphic file (type QTm)
+<use  "figures/tzt.pdf" >
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 641.
+See the caption package documentation for explanation.
+
+File: figures/tzp.pdf Graphic file (type QTm)
+<use  "figures/tzp.pdf" > [15] [16]
 Chapitre 5.
 File: Figures/is.png Graphic file (type QTm)
-<use  "Figures/is.png" > [12
+<use  "Figures/is.png" > [17
 
-] [13] [14]
+] [18] [19]
 Chapitre 6.
-[15
+[20
 
 ]
 Chapitre 7.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 653.
-[16
+[21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 653.
+Chapitre 8.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 802.
+[22
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 802.
  (./inslatex.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 653.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 653.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 802.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 802.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2157,19 +2309,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 653.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 802.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 287 ({)
+### simple group (level 1) entered at line 282 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30590 strings out of 493734
- 566052 string characters out of 6143229
- 784349 words of memory out of 5000000
- 33441 multiletter control sequences out of 15000+600000
- 40676 words of font info for 210 fonts, out of 8000000 for 9000
+ 31785 strings out of 493734
+ 581117 string characters out of 6143229
+ 789973 words of memory out of 5000000
+ 34590 multiletter control sequences out of 15000+600000
+ 54292 words of font info for 252 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,17n,56p,10409b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,17n,69p,10414b,2247s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on inslatex.pdf (19 pages).
+Output written on inslatex.pdf (25 pages).

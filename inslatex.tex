@@ -3,18 +3,8 @@
 \usepackage[left]{lineno}
 \usepackage{fancyhdr}%页眉页脚
 
-\headsep 4.3em
-\lhead{\includegraphics[scale=0.08]{Figures/polytech.png}}
-\chead{}
-\rhead{\includegraphics[scale=0.03]{Figures/psud.png}}
-\lfoot{ZOU Fangzheng}
-\cfoot{Polytech Paris-Sud}
-\rfoot{\thepage}
-%\renewcommand{\headrulewidth}{0.4pt}
-%\renewcommand{\footrulewidth}{0.4pt}
-
 \usepackage{xeCJK}  %中文支持
-%\usepackage{xunicode,xltxtra}
+\usepackage{xunicode,xltxtra}
 \usepackage{fontspec}%字体
 \usepackage{titlesec}%标题格式
 \usepackage[top=2.5cm,bottom=2.5cm,left=2cm,right=2cm]{geometry}%页边距
@@ -44,7 +34,11 @@
 \usepackage{cite}%参考文献
 \usepackage[super,square,comma,sort&compress]{natbib} 
 \usepackage{setspace}%设定行距
-\usepackage[colorlinks,linkcolor=black,urlcolor=black,anchorcolor=black,citecolor=black,CJKbookmarks=True]{hyperref}%超链接
+\definecolor{alizarin}{rgb}{0.82, 0.1, 0.26}%给超链接用
+\definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}%给超链接用
+\definecolor{lapislazuli}{rgb}{0.15, 0.38, 0.61}%给超链接用
+\definecolor{iceberg}{rgb}{0.44, 0.65, 0.82}%给超链接用
+\usepackage[colorlinks,linkcolor=black,urlcolor=lapislazuli,anchorcolor=black,citecolor=black,CJKbookmarks=True]{hyperref}%超链接
 %%%listings设置    \begin{lstlisting} !!code!! \end{lstlisting}
 \lstset{
         numbers=none, %设置行号位置
@@ -73,7 +67,7 @@
 %表格
 \newcommand\mgape[1]{\gape{$\vcenter{\hbox{#1}}$}}  
 %中文重定义
-\renewcommand{\contentsname}{目录（可以点章节标题，有惊喜）}
+\renewcommand{\contentsname}{目\ 录}
 \renewcommand{\listfigurename}{插图目录}
 \renewcommand{\listtablename}{表格目录}
 \renewcommand{\refname}{参考文献}
@@ -146,7 +140,6 @@
 \newcommand{\zhmainfont}{\song}
 \newcommand{\ud}{\mathrm{d}}          %用\ud 作为微分算子“d”
 \newcommand{\inti}{\int_{-\infty}^{+\infty}}%无穷积分
-
 \newcommand{\en}[1]{\enmainfont{#1}\zhmainfont}
 \newcommand{\zh}[1]{\zhmainfont{#1}\enmainfont}
 \newcommand{\drop}{ 0.08\textheight}
@@ -158,8 +151,9 @@
 %\setlength{\belowcaptionskip}{0pt}%对图片是下方，对表格是上方
 %\setlength{\parindent}{2.45em}  %首行缩进
 \definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setlength\parindent{0pt}
+\setlength\parindent{0pt}%首行无缩进
 \begin{document} \sihao
 \begin{minipage}{0.2\textwidth}
 %
@@ -207,8 +201,10 @@ A Massy, mercredi le 4 novembre.
 \par
 一定要 \textcolor[RGB]{255,0,51} {先下载}这个语言引擎！
 \par
+{\color{alizarin}TexLive 2015 }
+\par
 
-win版地址：\href{http://pan.baidu.com/share/link?uk=705221041&shareid=72337831&third=0&adapt=pc&from=wapforcetoweb}{点我打开}
+win版地址(官方)：\href{https://www.tug.org/texlive/acquire-iso.html}{点我打开}
 
 mac版地址：\href{http://pan.baidu.com/share/link?uk=2064390295&shareid=584901926&third=0&adapt=pc&fr=ftw}{点我打开}
 
@@ -228,8 +224,7 @@ mac版地址：\href{http://pan.baidu.com/share/link?uk=2064390295&shareid=58490
 
 \section{编译器安装}
 \par
-然后再安装这编译器：地址：\href{http://www.xm1math.net/texmaker/download.html}{点我打开}
-
+然后再安装这编译器：\href{http://www.xm1math.net/texmaker/download.html}{点我打开}
 \par
 我使用TexMaker，因为可以很好的支持XeLaTex。不推荐其他引擎+编译器组合，因为XeLaTex已经十分优秀（还直接支持中文），使用又简单。
 \par
@@ -244,7 +239,7 @@ mac版地址：\href{http://pan.baidu.com/share/link?uk=2064390295&shareid=58490
 \par
 Q：那需要背很多指令吗？ A：{\color{cyan}不用}！在后面会讲到。
 \par
-但是，刚上手的小伙伴可能会被虐到，因为习惯了Office系列的鼠标操作。你会发现在\LaTeX 的世界不管要做什么都得靠{\color{cyan}代码}。就算另起自然段这种操作，都要通过输入 $\backslash$par 来实现……
+但是，刚上手的小伙伴可能会被虐到，因为习惯了Office系列的鼠标操作。你会发现在\LaTeX 的世界不管要做什么都得靠{\color{cyan}代码}。就算另起自然段这种操作，都要用代码来实现……
 \par
 但是不要担心，因为有了秘笈……
 \section{TexMaker介绍}
@@ -326,9 +321,9 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{figure}
 \end{lstlisting}
 \par
-可以把需要插入的图片就放在跟Tex文件相同的目录下，图片文件名改得简单一点。
+可以把需要插入的图片就放在跟Tex文件相同的目录下，如果为了不显得那么杂乱，也可以建一个图片文件夹。图片文件名改得简单一点会比较省劲~
 \par
-还有一种常用的，并排放两张图的方式，给出代码~
+还有一种常用的，并排放两张图的方式，代码如下~
 \par
 \begin{lstlisting}[language={[ANSI]C}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
 \begin{figure}[h]
@@ -351,9 +346,39 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{figure}
 \par
 至于想像Word一样，采取文字环绕图片等等版式，我只想说，这就是Word生成的PDF杂乱无章的罪魁祸首，还是不要用了，并不会漂亮多少的。
+
+\par
+可能你已经发现了，按照上面的代码插入的图片，会经常不显示在自己需要的位置。因为我们设置了浮动方式是htp，\LaTeX 会自动调整图片的位置。这时候我们想强硬一点，就得使用float包，然后把浮动设置为H（注意是大写H）。还有一种方法，我现在正在使用。对于一些不需要使用标题的图片，或者标题放在图片之上也很美观的情况，我们不使用figure的浮动环境，而是使用minipage来插入图片。一个例子，图\ref{pic:ltx} ：
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{\LaTeX }
+\includegraphics[scale=0.18]{figures/latex.png}
+\label{pic:ltx}
+\end{minipage}
+\par
+如果图片过大，会被自动放到下一页，但是不会改变图片和文字的相对位置。这样插图的代码如下：
+\par
+\begin{lstlisting}[language={[ANSI]C}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{\LaTeX }
+\includegraphics[scale=0.18]{figures/latex.png}
+\label{pic:ltx}
+\end{minipage}
+\end{lstlisting}
+\par
+
 \vspace{2em}
 \section{绘制表格}
-我的建议是，如果表格特别复杂，不要用\LaTeX 绘制，用Word画好截图放进来。
+我的建议是，如果表格特别复杂，不要用\LaTeX 直接绘制，可以借助一些工具画，比如这个网站：\href{http://www.tablesgenerator.com/}{Tables Generator}
+\par
+这样一来我们可以像在Word差不多的环境中进行绘制一个表格了！
+\par
+见图\ref{pic:tb} 和 \ref{pic:tb2}。
+
 \par
 简单的表格画法：
 \par
@@ -385,13 +410,10 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \end{tabular}
 \end{lstlisting}
 \par
-至于像下面这种含有合并单元格，精确画格线的表格，可以借助一些工具画，比如这个网站：\href{http://www.tablesgenerator.com/}{Tables Generator}
+至于像下面这种含有合并单元格，精确画格线的表格，就更不要只接手写了……
 
 \par
-这样一来我们可以像在Word差不多的环境中进行绘制一个表格了！
-\par
-见图\ref{pic:tb} 和 \ref{pic:tb2}。
-\par
+
 \begin{figure}[htp] 
 \centering 
 \includegraphics[scale=0.65]{Figures/tb.png}
@@ -451,6 +473,46 @@ $\backslash$textit 表示斜体， $\backslash$textcolor[RGB]$\{$20,200,145$\}$ 
 \par
 
 挺麻烦的，手动绘制还是不要了= =
+\par
+如果需要输入很多数据，或者干脆想从Excel中复制过来数据，可以使用$\backslash Logiciels\backslash excel2latex.zip$ 这个插件，双击$Excel2LaTeX.xla$安装，然后你就可以在Excel里面直接将表格转换成\LaTeX 代码复制进来了！见表\ref{tab:bd1}：
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{转换}
+\includegraphics[scale=.66]{figures/xls.png}
+\label{pic:xls}
+\end{minipage}
+\par
+效果如下：
+\par
+
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+  \centering
+  \captionof{table}{Données à tracer le diagramme de Bode}
+    \begin{tabular}{lll}
+    \toprule
+    $\omega$ & 20$log(\omega)$ & $s(t)$/$e(t)$ \\
+    \midrule
+    5     & 13.97940009 & 9.352 \\
+    10    & 20    & 8.984 \\
+    20    & 26.02059991 & 8.616 \\
+    30    & 29.54242509 & 8.248 \\
+    40    & 32.04119983 & 7.88 \\
+    50    & 33.97940009 & 7.52 \\
+    60    & 35.56302501 & 7.12 \\
+    70    & 36.9019608 & 6.8 \\
+    80    & 38.06179974 & 6.4 \\
+    90    & 39.08485019 & 6.16 \\
+    100   & 40    & 5.92 \\
+    110   & 40.8278537 & 5.52 \\
+    120   & 41.58362492 & 5.2 \\
+    130   & 42.27886705 & 5.04 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:bd1}%
+\end{minipage}%
 \vspace{2em}
 \section{插入代码}
 你可能已经发现了,这代码贴得挺别致的：
@@ -503,6 +565,86 @@ $
 
 \end{array}\end{matrix}\right.
 $
+\section{画电路图}
+\label{pge:dlt}
+我们来谈谈使用一个名叫CircuiTikz的包。
+\par
+在头文件区域请加入：
+\par
+\begin{lstlisting}[language={[ANSI]C}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
+\usepackage{circuitikz}
+\usepackage{tikz,pgf}
+\end{lstlisting}
+\par
+然后我们就可以开始开心地画图了！其实在TexMaker中自带了TikZ包的快捷插入按钮！没错就是在这里：
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{按钮位置}
+\includegraphics[scale=.66]{figures/ti.png}
+\label{pic:ti}
+\end{minipage}
+\par
+
+好了我们来看一个例子：
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{放大器一}
+\includegraphics[scale=1]{figures/ao1.pdf}
+\label{pic:ao1}
+\end{minipage}
+这个放大器的例子来源于$\backslash Documentations\backslash circuitikz_2.zip$中的CircuiTikZ的Manuel文件，代码是这样的：
+\par
+\begin{lstlisting}[language={TeX}, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue!70},  frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
+\begin{tikzpicture}[scale=1]
+\draw [thick] (5,.5) node [op amp] (opamp) {}%在(5,.5)处放一个运算放大器
+(0,0) node [left] {$U_{we}$} to [R,l=$R_d$,o-*] (2,0)%在(0,0)点左边加说明，然后画到(2,0)，中间是一个值为X的电阻R，o-*表示左端是空心点，右端实心点。
+to [R,l=$R_d$,*-*] (opamp.+) %由(2,0)继续画导线连接到放大器正极
+to [C,l_=$C_{d2}$,*-] ($(opamp.+)-(0,2)$) node [ground]{}%由放大器正极向正极坐标减去(0,2)的点画去，中间放置一个值为X的电容C
+(opamp.out) to [R=$R$,*-o] (8,.5) 
+node [right] {$U_{wy}$}
+(opamp.out) |- (3.5,2)  to [C,l_=$C_{d1}$,*-] (2,2) to [short] (2,0)
+%|-表示从左边的点先画竖线再画横线到右边的点（不需要指定拐点的坐标）。下面-|则是先画横线再画竖线。
+(opamp.-) -| (3.5,2)
+;\end{tikzpicture}
+\end{lstlisting}
+\par
+注意，不必考虑初始坐标，只需要考虑相对坐标，编译器会自动调整位置。
+
+\par
+个人推荐在画完图以后新建一个tex文件，并且设置文档类型为\{standalone\}，这样输出的pdf文件只有一个电路图，然后在报告的相应位置使用$\backslash$includegraphics命令插入。 这样做有两个好处，一个是让报告的代码简洁美观，不乱套。另一个是可以使用scale参数根据需要改变整个电路图的整体大小（反正pdf不会失真！）。另外我已经创建了一个CircuiTikz的模板在同目录下，文件名是$CircuitTikZ$\_$Template.tex$里面还有另一个例子 图\ref{pic:ao2}。 如果需要画例子中没有的原件，请查阅manuel手册。
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{另一个例子}
+\includegraphics[scale=1]{figures/ao2.pdf}
+\label{pic:ao2}
+\end{minipage}
+\par
+
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{一个简单时序图，代码也在$CircuitTikZ_Template.tex$里面}
+\includegraphics[scale=1.3]{figures/tzt.pdf}
+\label{pic:tzt}
+\end{minipage}
+时序图具体请参考$\backslash Documentations\backslash tikz-timing.pdf$
+\par
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{}
+\centering
+\captionof{figure}{plot数据图~}
+\includegraphics[scale=.6]{figures/tzp.pdf}
+\label{pic:tzp}
+\end{minipage}
+我也创建了一个模板，在$TikZPlot.tex$中。
+
+
 
 \chapter{重要秘籍}
 说一个很重要，很有用，很高效，很酸爽的秘籍。
@@ -620,12 +762,24 @@ $
 \href{http://www.cs.pu.edu.tw/~wckuo/doc/latex123/node9.html}{表格处理教程}
 \par
 
+\par\href{http://www.codecogs.com/latex/eqneditor.php}{在线写公式}
+
 \href{https://bitbucket.org/rivanvx/beamer/wiki/Home}{Beamer：用\LaTeX 制作PPT}
 \par
 \href{http://latexcolor.com/}{\LaTeX 颜色预定义集合} （将颜色预定义加到头文件区域的\textcolor[RGB]{145,25,12}{最后}）
 \par
 \href{http://www.tablesgenerator.com/}{Tables Generator 在线绘制表格}%左边是网站
+\chapter{常见问题}
+\par
+如果你发现编译完毕以后图的序号和链接对应不上，或者目录对应的章节页码有问题，不要担心，请点击按钮再编译一次，应该可以解决（我也不知道为什么会这样= =）!
+\par
+如果你发现使用加粗、倾斜等命令后没有效果，很有可能是你选择的这句话字体本身不带加粗、倾斜效果。
+\par
+如果你发现我的头文件区域在编译时出错，十有八九是因为我定义的字体在你系统的字体库里没有安装，注释掉就可以了！
 \chapter{更新日志}
+27/11/2015 更新：
+\par
+增加画电路图部分\ref{pge:dlt}节！插图代码！
 19/11/2015 更新：
 \par
 添加了一个绘制表格网站和查询颜色预定义的网站~ 感觉妈妈又更不用担心我的报告了！
@@ -633,18 +787,13 @@ $
 
 11/11/2015 更新：
 \par
-特别感谢张子谋同志，是他的\LaTeX 贴心教程 给我启蒙。我的绝大部分技能都是从这份教程里面获得的。
+特别感谢张子谋同志，是他的\LaTeX 贴心教程 给我启蒙。我的大部分技能都是从这份教程里面获得的。
+
 \par
-如果你发现使用加粗、倾斜等命令后没有效果，很有可能是你选择的这句话字体本身不带加粗、倾斜效果。
-\par
-在GIT同目录下，有一些说明文档（PDF格式），详情请参见Git下README文件。
+在GitHub同目录下，有一些说明文档（PDF格式），详情请参见GitHub下README文件。
 \par
 
 04/11/2015 更新：
-\par
-
-如果你发现copy了我的头文件区域之后不能compiler，十有八九是因为我定义的字体在你系统的字体库里没有安装，注释掉就可以了！
-\par
 初使用\LaTeX 的一段时间必然是挺痛苦的 但是越写越带劲~加油小伙伴们！
 \par
 \begin{flushright}

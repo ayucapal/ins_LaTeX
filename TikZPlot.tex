@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{minimal}
+% Line plot example using external data fiels.
+%
+% Author: Claudio Favi
+\usepackage{tikz}
+\usetikzlibrary{plotmarks}
+
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title:  Line Plot Example
+:Tags: Plotting; Plots
+:Author: Claudio Favi
+\end{comment}
+
+% The data files, written on the first run.
+\begin{filecontents}{div_soft.data}
+#MOPS 	Power [mW]
+13.97940009	9.352
+20	8.984
+26.02059991	8.616
+29.54242509	8.248
+32.04119983	7.88
+33.97940009	7.52
+35.56302501	7.12
+36.9019608	6.8
+38.06179974	6.4
+39.08485019	6.16
+40	5.92
+40.8278537	5.52
+41.58362492	5.2
+42.27886705	5.04
+42.92256071	4.8
+43.52182518	4.56
+44.08239965	4.4
+44.60897843	4.24
+45.1054501	4
+45.57507202	3.84
+46.02059991	3.76
+46.44438589	3.3
+46.84845362	3.44
+47.23455672	3.26
+47.95880017	3.12
+49.54242509	2.64
+52.04119983	2.08
+53.97940009	1.68
+55.56302501	1.36
+56.9019608	1.28
+58.06179974	1.12
+59.08485019	1.04
+60	0.88
+63.52182518	0.64
+66.02059991	0.56
+
+
+\end{filecontents}
+
+\begin{document}
+\begin{tikzpicture}[y=.8cm, x=.3cm,font=\sffamily]
+ 	%axis
+	\draw (0,0) -- coordinate (x axis mid) (70,0);
+    	\draw (0,0) -- coordinate (y axis mid) (0,11);
+    	%ticks
+    	\foreach \x in {0,10,...,70}
+     		\draw (\x,1pt) -- (\x,-3pt)
+			node[anchor=north] {\x};
+    	\foreach \y in {0,...,10}
+     		\draw (1pt,\y) -- (-3pt,\y) 
+     			node[anchor=east] {\y}; 
+	%labels      
+	\node[below=0.8cm] at (x axis mid) {$20log(\omega)$};
+	\node[rotate=90, above=0.8cm] at (y axis mid) {$s(t)/e(t)$};
+
+	%plots
+	\draw plot[mark=*, mark options={fill=white}] 
+		file {div_soft.data};
+	\draw plot[mark=triangle*, mark options={fill=white} ] 
+		file {div_ciu.data};
+	\draw plot[mark=square*, mark options={fill=white}]
+		file {div_ciu_oscar.data};
+	\draw plot[mark=square*]
+		file {div_ciu_oscar_extrapolated.data};  
+    
+	%legend
+	\begin{scope}[shift={(4,4)}] 
+	\draw (0,0) -- 
+		plot[mark=*, mark options={fill=white}] (0.25,0) -- (0.5,0) 
+		node[right]{Diagramme de Bode};
+%	\draw[yshift=\baselineskip] (0,0) -- 
+%		plot[mark=triangle*, mark options={fill=white}] (0.25,0) -- (0.5,0)
+%		node[right]{ciu};
+%	\draw[yshift=2\baselineskip] (0,0) -- 
+%		plot[mark=square*, mark options={fill=white}] (0.25,0) -- (0.5,0)
+%		node[right]{ciu + oscar};
+%	\draw[yshift=3\baselineskip] (0,0) -- 
+%		plot[mark=square*, mark options={fill=black}] (0.25,0) -- (0.5,0)
+%		node[right]{ciu + oscar extrapolated};
+	\end{scope}
+\end{tikzpicture}
+\end{document}
